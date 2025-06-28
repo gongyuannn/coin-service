@@ -12,7 +12,8 @@ Given a **target amount** (0–10,000.00 dollars inclusive) and a list of coin d
   - Amount cannot be formed with given denominations
 - **Algorithm**: Greedy approach (dynamic programming was considered but not implemented due to constraints)
   
-### Build & Run
+### Build & Run Locally  
+```bash
 # 1. Package the fat JAR
 mvn clean package
 
